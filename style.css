@@ -1,104 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
-    color: blue;
-  }
-  h2 {
-    color: green;
-  }
-  body {
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    text-align:center;
-    margin: 0;
-    color: #3e363f;
-    padding-top: 70px;
-  }
-  nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  .menu-item {
-    text-decoration: none;
-    color: #333;
-    padding: 10px;
-    display: inline-block;
-    
-  }
-  .menu-item:hover {
-    background-color: #ddd;
-    transition: all 0.01s ease-in-out;
-  }
-  header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
-  section {
-    padding: 20px;
-    border: 1px solid #ddd;
-    margin-bottom: 20px;
-  }
-  #habilidades ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  #experiencia ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  margin-top: 50px;
 }
-#proyectos ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+
+.input-area {
+  margin: 20px auto;
+  max-width: 300px;
 }
-#contacto ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+
+#guess-input {
+  display: block;
+  margin: 0 auto 10px;
+  padding: 10px;
+  font-size: 18px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
 }
-#habilidades ul {
-    list-style: none;
-    padding: 0;
-}  
-#habilidades ul li {
-    display: inline-block;
-    padding: 5px;
-    border: 1px solid #070101;
-    border-radius: 5px;
-    margin-right: 10px;
-}  
-#proyectos ul li a {
-    text-decoration: none;
-    color: #247a4f;
+
+#guess-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #0CBABA;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
-#proyectos ul li a:hover {
-    text-decoration: underline;
+
+#guess-button:hover {
+  background-color: #0AA8A8;
 }
-#sociales {
-    list-style: none;
-    padding: 0;
-    margin-top: 10px;
+
+button:active {
+  transform: scale(0.95);
 }
-#sociales li {
-    list-style: none;
-    display: inline-block;
-    padding: 5px;
-}  
-.fa {
-    color: #333;
-    text-decoration: none;
-    margin-left: 0px;
+
+.letter {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 3px;
+  min-width: 20px;
+  text-align: center;
+  display: inline-block;
+  background-color: #fff;
 }
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
+
+.row {
+  margin-bottom: 10px;
 }
